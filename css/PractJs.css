@@ -1,7 +1,46 @@
 body{
-    background-image: url('./leaves.jpg');
+    background-image: url('./leaves-color.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 24px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .container{
     background-color: white;
+    height: 100vh;
+    margin-top: 60px;
+    border-radius: 5px;
+    padding: 20px;
 }
+
+.rmn-logo{
+    width: 320px;
+    background-color: #245d3c;
+    height: 55px;
+    color:white;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px;
+    
+}
+
+.rmn-galeria-row{
+    background-color: rgb(192, 192, 192);
+}
+
+.galeria-slick{
+    width:90%;
+    margin:0px auto;
+    
+  }
+  .slick-slide{
+    margin:10px;
+  }
+
+.slick-slide img{
+    width:100%;
+    max-height: 500px;
+  }
+ 
