@@ -1,5 +1,5 @@
 body{
-    background-image: url('./leaves-color.jpg');
+    background-image: url('./bg/3.jpg');
     background-position: center;
     background-attachment: fixed;
     font-size: 24px;
@@ -8,7 +8,7 @@ body{
 
 .container{
     background-color: white;
-    height: 100vh;
+    height: 100%;
     margin-top: 60px;
     border-radius: 5px;
     padding: 20px;
@@ -25,22 +25,30 @@ body{
     padding: 0px;
     
 }
-
-.rmn-galeria-row{
-    background-color: rgb(192, 192, 192);
+.carousel-item img{
+    max-height: 500px;
 }
 
-.galeria-slick{
-    width:90%;
-    margin:0px auto;
-    
-  }
-  .slick-slide{
-    margin:10px;
-  }
+#selectorTema{
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    height: 120px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    padding: 5px;
+}
 
-.slick-slide img{
-    width:100%;
-    max-height: 500px;
-  }
- 
+#selectorTema ul{
+    padding:0;
+}
+
+#selectorTema li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#selectorTema li:hover{
+    text-decoration: underline;
+}
